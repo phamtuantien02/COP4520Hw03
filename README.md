@@ -11,3 +11,7 @@ The program mimics the hours that passes by as it does a loop to generate the in
 With that in mine we have to make sure that each sensor can read its own information parallel to the other sensors as well.
 So when running this program the program completes almost instantly which is good meaning that all the threads are being used
 and everything that is used is not interfering with the other programs.
+
+For the minotaur problem the reasoning that the minotaur is losing out on some Thank You gifts is because the remove function where 
+the servants are going to be losing on the fact that they are not able to remove something because someone else is already looking at it.
+This means that my solution where the lock is implemented better means that they are able to get all 500,000 Thank Yous back to the people.
